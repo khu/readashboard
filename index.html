@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>REA Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Dashboard</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+		<div class="hero-unit">
+		        <h3>REA Dashboard</h3>
+		        <p>Now fully ramped up at 43 people</p>
+
+		      </div>
+		<div class="row">
+		        <div class="span6">
+		            <h2>Resource Tracking</h2>
+					<table class="table table-striped table-bordered">
+					<thead>
+					<tr>
+					<th>Team</th>
+					<th>Plan</th>
+					<th>Actual</th>
+					<th>Comment</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+					<td>HomeIdeas</td>
+					<td>10 </td>
+					<td>10</td>
+					<td></td>
+					</tr>
+					<tr>
+					<td>Reporting</td>
+					<td>8</td>
+					<td>8</td>
+					<td></td>
+					</tr>
+					<tr>
+					<td>Mobile</td>
+					<td>4</td>
+					<td>4</td>
+					<td></td>
+					</tr>
+					<tr>
+					<td>API</td>
+					<td>6</td>
+					<td>6</td>
+					<td></td>
+					</tr>
+					<tr>
+					<td>Diamond</td>
+					<td>6</td>
+					<td>6</td>
+					<td></td>
+					</tr>
+					<tr>
+					<td>RCA</td>
+					<td>8</td>
+					<td>8</td>
+					<td></td>
+					</tr>
+					</tbody>
+					</table>
+
+		        </div>
+				<div class="span6">
+		            <h2>Starter and Leavers</h2>
+					<table class="table table-striped table-bordered">
+					<thead>
+					<tr>
+					<th>S/L</th>
+					<th>Team</th>
+					<th>Start Date/End Date</th>
+					<th>Readiness</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+					<td>Zhou Zhewu</td>
+					<td>L</td>
+					<td>API</td>
+					<td>Mid/March</td>
+					</tr>
+					</tbody>
+					</table>
+
+		        </div>
+		
+		
+        <div class="span9">
+          <div class="row">
+            <div id="resource-tracking" class="span4">
+
+            </div><!--/span-->
+          </div><!--/row-->
+			
+          <div class="row">
+            <div class="span9">
+              <h2>Issue</h2>
+
+			<table class="table table-striped table-bordered">
+			<thead>
+			<tr>
+			<th>Date Open</th>
+			<th>Description</th>
+			<th>Owner</th>
+			<th>Status</th>
+			<th>Action Plan</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td>9-Aug-1</td>
+			<td>Network latency is causing some issues with development</td>
+			<td>Hu Kai</td>
+			<td>Done</td>
+			<td>All team moved to new VPN Group.</td>
+			</tr>
+			<tr>
+			<td>20-Sept-1</td>
+			<td>Scope for the next period for API team is not clear.</td>
+			<td>Daniel H</td>
+			<td>Done</td>
+			<td>API has clear scope now.</td>
+			</tr>
+			<tr>
+			<td>2-Nov-2</td>
+			<td>Visa</td>
+			<td>Hu Kai</td>
+			<td>In Progress</td>
+			<td>Mobile,Diamond,HomeIdeas is in progress.</td>
+			</tr>
+			<tr>
+			<td>16-Jan-1</td>
+			<td>Longer term vision for Xian mobile and API team is not clear in terms of iOS/ Android capability & API team structure and capability</td>
+			<td>Daniel H</td>
+			<td>In Progress</td>
+			<td>Next 2 month is clear.</td>
+			</tr>
+			<tr>
+			<td>16-Jan-2</td>
+			<td>Reporting team has been established for 1 year already, HomeIdeas will hit the 1 year target in a month, some people will need some new work to be motivated.  </td>
+			<td>Hu Kai</td>
+			<td>In Progress</td>
+			<td>Not currently an issue.  HK is monitoring, with a focus on leads.  </td>
+			</tr>
+			</tbody>
+			</table>
+
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2012</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
